@@ -1,13 +1,13 @@
-# :microscope: Elementos básicos: funciones, propiedades y clases
+# :seedling: Elementos básicos: funciones, propiedades y clases
 
 En Kotlin hay 3 elementos principales que se pueden definir a nivel de paquete: funciones, propiedades y clases.
 
 >:coffee: **Diferencia con Java:** En Java todo tiene que ser una clase y por lo tanto no podemos tener funciones ni propiedades fuera de ellas.
 
-## Funciones
+* [Funciones](./elementos_basicos_funciones.md)
 
-## Propiedades
+* [Propiedades](./elementos_basicos_propiedades.md)
 
-# Clases
+* Clases
 
 
