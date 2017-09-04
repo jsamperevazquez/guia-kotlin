@@ -41,5 +41,4 @@ val maximo = if (a > b) {
 }
 ```
 
-
-
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/control-flow.html#if-expression
