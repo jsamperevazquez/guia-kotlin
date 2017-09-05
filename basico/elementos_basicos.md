@@ -4,7 +4,7 @@ En Kotlin hay 3 elementos principales que se pueden definir **a nivel de paquete
 
 >:coffee: **Diferencia con Java:** En Java todo tiene que ser una clase y por lo tanto no podemos tener funciones ni propiedades fuera de ellas.
 
-Las variables NO se pueden definir a nivel de paquete (aunque visualmente podría parecerlo, en realidad se trataría de propiedades). Deben estar comprendidas dentro de una función.
+Las variables NO se pueden definir a nivel de paquete (aunque visualmente podrían parecerlo, en realidad se trataría de propiedades). Deben estar comprendidas dentro de una función.
 
 * [Variables](./elementos_basicos_variables.md)
 

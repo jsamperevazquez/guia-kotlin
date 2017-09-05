@@ -1,6 +1,6 @@
 # :mailbox_with_mail: Elementos básicos: propiedades
 
-No debemos confundir una propiedad con una variable. Una propiedad es un elemento de máximo nivel (puede estar definida a nivel de clase pero **también a nivel de paquete**) a la que no se accede directamente, si no a través de unos _accesors_. Estos _accesors_ son una funcion _get_ (para leer el valor) y una funcion _set_ (para cambiar el valor).
+No debemos confundir una propiedad con una variable. Una propiedad es un elemento de máximo nivel (puede estar definida a nivel de clase pero **también a nivel de paquete**) a la que no se accede directamente, si no a través de unos _accesors_. Estos _accesors_ son una función _get_ (para leer el valor) y una función _set_ (para cambiar el valor).
 
 Por ejemplo:
 

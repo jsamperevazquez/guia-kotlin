@@ -53,7 +53,7 @@ mutable = 2
 
 se definen con la palabra reservada _val_ (de **value**)
 
->:rotating_light: La referencia a la que apuntan no puede ser cambiada, lo cual no quiere decir que el objeto al que referencian no pueda cambiar. 
+>:rotating_light: La referencia a la que apuntan no puede ser cambiada, lo cual no quiere decir que el objeto al que hacen referencia no pueda cambiar. 
 
 En tipos primitivos (números, booleanos,...) esto no afecta:
 
@@ -88,7 +88,7 @@ Lo que no se puede hacer con una variable inmutable es reasignar su valor. Por e
 inmutable = Cosa(3)
 ```
 
-lo cual si estaría permitido si hubiesemos definido la variable _inmutable_ de la siguiente manera:
+lo cual si estaría permitido si hubiésemos definido la variable _inmutable_ de la siguiente manera:
 
 ```kotlin
 var inmutable = cosa
