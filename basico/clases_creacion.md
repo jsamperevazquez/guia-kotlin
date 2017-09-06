@@ -10,7 +10,26 @@ fun main(args : Array<String>) {
 }
 ```
 
+Si no se indica nada, se genera automáticamente un **constructor primario**. El anterior código es equivalente a:
+
+```kotlin
+class Clase constructor() {}
+
+fun main(args : Array<String>) {
+    val vacia = Clase()
+}
+```
+
+
 Las clases pueden recibir parámetros en su **constructor primario**:
+
+```kotlin
+class Persona constructor(nombre : String) {
+    val nombre = nombre
+}
+```
+
+Si el contructor primario no tiene modificadores de visibilidad ni anotaciones se puede prescindir de la palabra _constructor_:
 
 ```kotlin
 class Persona(nombre : String) {
@@ -58,6 +77,19 @@ class Persona(val nombre : String) {
     }
     constructor(nombre : String, apellido : String) : this("$nombre $apellido")
 }
+```
+
+De manera similar a Java, si una clase implementa constructores secundarios, no se generará automáticamente un constructor primario:
+
+```kotlin
+class Persona {
+    var nombre = ""
+    constructor(nombre : String) {
+        this.nombre = nombre
+    }
+}
+
+val persona = Persona() // Error de compilación
 ```
 
 
