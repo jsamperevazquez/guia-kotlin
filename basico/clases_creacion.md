@@ -92,4 +92,19 @@ class Persona {
 val persona = Persona() // Error de compilación
 ```
 
+:bulb: Este código está forzado para mostrar el ejemplo. La manera lógica de hacerlo sería:
+```kotlin
+class Persona(val nombre : String = "")
+```
+
+Desde los constructores secundarios no se pueden definir propiedades:
+
+```kotlin
+class Persona {
+    constructor(val nombre : String) // Error de compilación
+}
+```
+
+
+
 
