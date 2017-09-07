@@ -1,5 +1,7 @@
 # :microscope: Detalles
 
+* No existe el concepto _static_. Los miembros se pueden declaran fuera de las clases, directamente a nivel de paquete.
+
 * Comparación: == compara valores, === referencias.
 
 * No es necesario el ; al final de cada statement
