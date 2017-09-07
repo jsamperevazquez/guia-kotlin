@@ -80,3 +80,25 @@ class Derivada(valor : Int) : Base(valor) {
 }
 ```
 
+## Clases abstractas
+
+Funcionan de manera similar a Java. Las clases abstractas son _open_ por defecto.
+
+```kotlin
+abstract class Abstracta {
+    abstract fun saludar()
+    fun metodoConcreto() {
+        println("que pasa")
+    }
+}
+
+class Concreta : Abstracta() {
+    override fun saludar() {
+        println("hola")
+    }
+}
+```
+
+
+
+
