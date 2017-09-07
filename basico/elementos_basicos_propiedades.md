@@ -34,7 +34,7 @@ fun main(args : Array<String>) {
 
 Ahora se ven los _accesors_ _get_ y _set_ que antes estaban "ocultos". 
 
->:eyes: Con la palabra reservada field accedemos valor de la propiedad directamente, ya que si utilizamos _propiedad_ estaremos llamador al _accesor_ get y tendríamos un error en tiempo de ejecución al llamar una y otra vez a la función get.
+>:bulb: Con la palabra reservada _field_ accedemos valor de la propiedad directamente, ya que si utilizamos _propiedad_ estaremos llamador al _accesor_ _get_ y tendríamos un error en tiempo de ejecución al llamar una y otra vez a la función _get_.
 
 Esto daría error en tiempo de ejecución:
 
@@ -51,7 +51,7 @@ fun main(args : Array<String>) {
 
 ya que _get_ se está llamando recursivamente. 
 
->:rotating_light: En Kotlin, a una propiedad nunca se accede directamente, SIEMPRE se hace a través de sus accesors (estén estos codificados explícitamente o no).
+>:rotating_light: En Kotlin, a una propiedad nunca se accede directamente, SIEMPRE se hace a través de sus _accesors_ (estén estos codificados explícitamente o no).
 
 >:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/properties.html
 
