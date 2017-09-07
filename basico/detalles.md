@@ -12,6 +12,12 @@
 val millon = 1_000_000
 ```
 
+* Se puede utilizar _const_ para propiedades cuyo valor se conoce en tiempo de compilación. Dichas propiedades han de cumplir:
+
+    * Declaradas a nivel de paquete (top-level) o miembro de un objeto.
+    * De tipo String o primitivo
+    * Sin una función _get_ personalizada.
+
 ## Arrays
 
 * Las arrays se pueden crear con la función _arrayOf_:
