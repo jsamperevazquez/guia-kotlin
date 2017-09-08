@@ -34,3 +34,5 @@ var tresPrimeros = arrayOf(1,2,3)
 for(i in 0..tresPrimeros.size-1) println(tresPrimeros[i])
 for(i in 0..tresPrimeros.size-1) println(tresPrimeros.get(i))
 ```
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/basic-types.html#arrays

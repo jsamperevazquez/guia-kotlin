@@ -67,7 +67,7 @@ val b = 5
 println("la suma de a y b es ${a+b}")
 ```
 
-Los _string templates_ se pueden utilizar tambien en cadenas _raw_:
+Los _string templates_ se pueden utilizar también en cadenas _raw_:
 
 ```kotlin
 val a = 2
@@ -81,3 +81,5 @@ val cadena =    """
                 """.trimMargin()
     println(cadena)
 ```
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/basic-types.html#strings

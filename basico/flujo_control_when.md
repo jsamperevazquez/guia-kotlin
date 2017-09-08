@@ -59,3 +59,5 @@ fun compararEnteros(a : Int, b : Int) {
     }
 }
 ```
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/control-flow.html#when-expression

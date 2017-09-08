@@ -49,3 +49,5 @@ fun saludar() {
     println("hola")
 }
 ```
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/functions.html

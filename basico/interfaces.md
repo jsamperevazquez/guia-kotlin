@@ -61,4 +61,4 @@ class Concreta : Base(), Interfaz1, Interfaz2 {
 }
 ```
 
-
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/interfaces.html

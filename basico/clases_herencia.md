@@ -98,6 +98,7 @@ class Concreta : Abstracta() {
     }
 }
 ```
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/classes.html#inheritance
 
 
 

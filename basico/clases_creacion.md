@@ -105,6 +105,4 @@ class Persona {
 }
 ```
 
-
-
-
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/classes.html

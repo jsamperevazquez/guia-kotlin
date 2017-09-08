@@ -38,3 +38,5 @@ Hay 4 elementos que se pueden definir a nivel de paquete: propiedades, funciones
 * internal: visible para cualquier cliente **dentro del módulo** que ve la clase.
 * private: visible dentro de la clase.
 * protected: private + visible para las subclases
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/visibility-modifiers.html

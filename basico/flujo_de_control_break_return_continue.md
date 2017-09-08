@@ -115,3 +115,5 @@ fun imprimirCincoPrimeros() {
 ```
 
 Como con _break_ y _continue_ se pueden utilizar etiquetas.
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/returns.html
