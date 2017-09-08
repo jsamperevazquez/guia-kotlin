@@ -1,4 +1,4 @@
-# :card_index: Data classes
+# :card_index: Clases: _Data classes_
 
 Las clases _data_ simplifican la tarea de crear clases que solo contienen datos. Implementan por defecto las siguientes funciones:
 
