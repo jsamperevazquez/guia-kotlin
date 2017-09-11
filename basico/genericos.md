@@ -52,4 +52,17 @@ Las pilas de enteros y de _Strings_ definidas anteriormente seguirían funcionan
 val pilaNoValida = Pila<HashMap<Int, String>>()
 ```
 
+Las funciones también pueden tener tipos genéricos:
+
+```kotlin
+fun  <T> imprimir(lista : List<T>) {
+    println(lista.joinToString(separator = ",", prefix = "[", postfix = "]"))
+}
+
+fun main(args : Array<String>) {
+    imprimir(listOf(1,2,3,4,5))
+    imprimir(listOf("hola", "que", "tal"))
+}
+```
+
 >:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/generics.html
