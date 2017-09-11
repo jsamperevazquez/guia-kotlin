@@ -28,5 +28,6 @@ fun main(args : Array<String>) {
     println(RGB.ROJO.resto())
     println(RGB.valueOf("ROJO"))
 }
-
 ```
+
+>:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/enum-classes.html
