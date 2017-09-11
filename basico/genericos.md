@@ -38,7 +38,7 @@ fun main(args : Array<String>) {
 
 ## Limitación de tipos
 
-Se puede restringir los subtipos que puede admitir un tipo génerico. Por ejemplo podríamos redefinir nuestra Pila de la siguiente manera:
+Se puede restringir los subtipos que puede admitir un tipo genérico. Por ejemplo podríamos redefinir nuestra Pila de la siguiente manera:
 
 ```kotlin
 class Pila<T : Comparable<T>>() {
