@@ -50,4 +50,35 @@ fun saludar() {
 }
 ```
 
+## Funciones locales
+
+Kotlin soporta funciones locales:
+
+```kotlin
+fun multiplicar(factor1 : Int, factor2 : Int) : Int {
+    fun sumar(a : Int, b : Int) = a + b
+    var producto = 0
+    for(i in 1..factor1) {
+        producto = sumar(producto, factor2)
+    }
+    return producto
+}
+```
+
+Desde las funciones locales se tiene visibilidad a la función principal, por lo que la anterior función también podría escribirse así:
+
+```kotlin
+fun multiplicar(factor1 : Int, factor2 : Int) : Int {
+    var producto = 0
+
+    fun sumar() {
+        producto += factor2
+    }
+
+    for(i in 1..factor1) sumar()
+
+    return producto
+}
+```
+
 >:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/functions.html
