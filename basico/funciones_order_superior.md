@@ -56,22 +56,48 @@ fun main(args : Array<String>) {
 
 >:rotating_light: Una lambda no permite especificar el tipo de retorno. Normalmente se puede inferir, pero si necesitamos declararlo explícitamente tenemos que utilizar una función anónima.
 
-## Closure
+## Closures
+
+Las variables locales se vuelven a crear cada vez que una función es llamada. Esto, junto a la capacidad de de tratar a las funciones como cualquier otro valor nos permite hacernos una pregunta interesante:
+
+**¿Qué pasa con estas variables locales cuando la función que las crea ya no está activa?**
+
+Vamos a ver un pequeño código que intenta responder a esta pregunta:
 
 ```kotlin
-fun crearContador() : () -> Int {
-    var contador = 0
-    return fun() : Int {
-        contador += 1
-        return contador
-    }
+fun crearCaja(n : Int) : () -> Int {
+    var variableLocal = n
+    return { variableLocal }
 }
 
 fun main(args : Array<String>) {
-    val contador = crearContador()
-    println(contador()) // 1
-    println(contador()) // 2
+    val caja1 = crearCaja(1)
+    val caja2 = crearCaja(2)
+    println(caja1())
+    println(caja2())
 }
 ```
+```
+Salida:
+1
+2
+```
+
+**La capacidad de hacer referencia a instancias concretas de variables locales desde una función "interna" se denomina _closure_.**
+
+Otro ejemplo:
+
+```kotlin
+fun multiplicador(factor : Int) : (Int) -> Int {
+    return { factor * it }
+}
+
+fun main(args : Array<String>) {
+    val por2 = multiplicador(2)
+    println(por2(5))
+}
+```
+
+Una buena manera de ver las _closures_ es pensar que las funciones que son retornadas contienen una foto de las variables locales a las que hacen referencia.
 
 >:ru: **Referencia oficial:** https://kotlinlang.org/docs/reference/lambdas.html
