@@ -1,4 +1,4 @@
-# :bust_in_silhouette: Genéricos
+# :no_mouth: Genéricos
 
 Al igual que en Java, en Kotlin las clases (además de las funciones) pueden tener un tipo. Aquí podemos ver un ejemplo básico con la implementación y utilización de de una pila:
 
