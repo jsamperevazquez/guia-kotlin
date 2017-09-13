@@ -1,10 +1,12 @@
 # :microscope: Detalles
 
+* No es necesario el ; al final de cada statement
+
+* Hay 4 elementos principales que se pueden definir **a nivel de paquete**: funciones, propiedades, clases y objetos.
+
 * No existe el concepto _static_. Los miembros se pueden declaran fuera de las clases, directamente a nivel de paquete.
 
 * Comparación: == compara valores, === referencias.
-
-* No es necesario el ; al final de cada statement
 
 * Es posible utilizar el guión bajo para hacer los constantes numéricas más legibles:
 
