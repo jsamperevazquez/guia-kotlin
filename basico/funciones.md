@@ -1,4 +1,4 @@
-# :droplet: Elementos básicos: funciones
+# :droplet: Funciones
 
 Las funciones en Kotlin se declaran con la palabra reservada _fun_.
 
