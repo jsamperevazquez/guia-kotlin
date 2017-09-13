@@ -1,4 +1,4 @@
-# :microscope: Variables
+# :mailbox_with_mail: Variables
 
 La inicialización de una variable local en Kotlin es de a forma:
 
