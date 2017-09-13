@@ -1,4 +1,4 @@
-# :abcd: Flujo de control: when
+# :abcd: Flujo de control: la expresión _when_
 
 Se puede considerar a _when_ como una versión mejorada de conocido _switch_ de Java (y otros lenguajes). 
 
