@@ -1,4 +1,4 @@
-# :twisted_rightwards_arrows: Flujo de control: if
+# :twisted_rightwards_arrows: Flujo de control: la expresión _if_
 
 En Kotlin, _if_ es una expresión que **siempre retorna un resultado**.
 
