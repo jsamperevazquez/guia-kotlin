@@ -24,7 +24,7 @@
 
 * :busts_in_silhouette: [Interfaces](basico/interfaces.md)
 * :eyes: [Visibilidad](basico/visibilidad.md)
-* :123: [Enums](basico/enums.md)
+* :1234: [Enums](basico/enums.md)
 * :no_mouth: [Genéricos](basico/genericos.md)
 
 ### Temas intermedios
