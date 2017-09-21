@@ -1,4 +1,4 @@
-# :repeat: Flojo de control: El bucle _for_ (y los rangos)
+# :repeat: Flujo de control: El bucle _for_ (y los rangos)
 
 La única forma del bucle _for_ en Kotlin es del tipo 'for-each', que itera sobre cualquier objeto que implemente la _interface iterator_ que se utiliza normalmente para recorrer colecciones de elementos.
 
