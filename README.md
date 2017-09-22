@@ -24,11 +24,11 @@
 
 * :busts_in_silhouette: [Interfaces](basico/interfaces.md)
 * :eyes: [Visibilidad](basico/visibilidad.md)
-* :123: [Enums](basico/enums.md)
+* :1234: [Enums](basico/enums.md)
 * :no_mouth: [Genéricos](basico/genericos.md)
 
 ### Temas intermedios
 
-* :nut_and_bolt: [Funciones de orden superior](intermedio/funciones_orden_superior.md)
+* :nut_and_bolt: [Programación funcional](intermedio/funciones_orden_superior.md)
 
 ### Temas avanzados
