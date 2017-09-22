@@ -19,7 +19,7 @@ val multiplicarPorCinco = fun(a : Int) = a * 5
 
 Una lambda es **una función anónima que se utiliza en el mismo momento que se declara**. En Kotlin se declara entre llaves (_{}_) y los parámetros se separan del cuerpo de la función con _->_
 
-Por ejemplo, la función _transforma_ devuelve un entero y recibe dos parámetros: un entero y función que se aplicará a dicho entero.
+Por ejemplo, la función _transformar_ devuelve un entero y recibe dos parámetros: un entero y función que se aplicará a dicho entero.
 
 ```kotlin
 fun transformar(n : Int, funcion : (Int) -> Int) = funcion(n)

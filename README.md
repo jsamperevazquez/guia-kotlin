@@ -29,4 +29,6 @@
 
 ### Temas intermedios
 
+* :nut_and_bolt: [Funciones de orden superior](intermedio/funciones_orden_superior.md)
+
 ### Temas avanzados
