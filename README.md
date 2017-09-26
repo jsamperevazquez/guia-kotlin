@@ -30,5 +30,6 @@
 ### Temas intermedios
 
 * :nut_and_bolt: [Programación funcional](intermedio/funciones_orden_superior.md)
+* :hatching_chick: [Extensiones](intermedio/extensiones.md)
 
 ### Temas avanzados
