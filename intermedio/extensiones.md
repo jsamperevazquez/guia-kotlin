@@ -1,6 +1,10 @@
 # :hatching_chick: Extensiones
 
-Las extensiones permiten añadir funcionalidad (como propiedades o funciones) a las clases, que pueden ser utilizadas posteriormente como si formaran parte de la clase original.
+Las extensiones permiten añadir funcionalidad (como propiedades o funciones) a las clases, que pueden ser utilizadas posteriormente como si formaran parte de la clase original. Son propiedades y funciones que se definen fuera de la clase para que se pueden utilizar como si formaran parte de ella.
+
+>:rotating_light: Desde las extensiones no se puede acceder a los miembros privados de la clase receptora.
+
+>:rotating_light: Las extensiones deben importarse desde el fichero en el que quieren utilizarse.
 
 ```kotlin
 fun Int.resto(divisor: Int) = this % divisor
@@ -15,7 +19,7 @@ fun main(args : Array<String>) {
 }
 ```
 
-La palabra _this_ hace referencia al objeto sobre el que se aplica dicha extensión.
+La palabra _this_ hace referencia al objeto **receptor** sobre el que se aplica dicha extensión.
 
 Hemos extendido la clase Int con dos nuevas funcionalidades:
 
