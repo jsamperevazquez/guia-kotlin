@@ -29,9 +29,9 @@
 
 ### Temas intermedios
 
-* :nut_and_bolt: [Programación funcional](intermedio/funciones_orden_superior.md)
 * :hatching_chick: [Extensiones](intermedio/extensiones.md)
-* :link: [Funciones infix](intermedio/infix.md)
+* :link: [Llamadas infix](intermedio/infix.md)
+* :nut_and_bolt: [Programación funcional](intermedio/funciones_orden_superior.md)
 * :mailbox_with_no_mail: [Nulabilidad](intermedio/nulabilidad.md)
 * :interrobang: [Excepciones](intermedio/Excepciones.md)
 
