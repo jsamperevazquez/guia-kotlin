@@ -33,6 +33,7 @@
 * :envelope: [Casting](intermedio/casting.md)
 * :hatching_chick: [Extensiones](intermedio/extensiones.md)
 * :link: [Llamadas infix](intermedio/infix.md)
+* :musical_keyboard: [Número variable de parámetros](intermedio/numero_variable_parametros.md)
 * :nut_and_bolt: [Programación funcional](intermedio/funciones_orden_superior.md)
 * :interrobang: [Excepciones](intermedio/Excepciones.md)
 
