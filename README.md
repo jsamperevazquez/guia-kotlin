@@ -30,7 +30,7 @@
 ### Temas intermedios
 
 * :mailbox_with_no_mail: [Nulabilidad](intermedio/nulabilidad.md)
-* :envelope: [Casting](intermedio/casting.md)
+* :bulb: [Casting inteligente](intermedio/casting.md)
 * :hatching_chick: [Extensiones](intermedio/extensiones.md)
 * :link: [Llamadas infix](intermedio/infix.md)
 * :musical_keyboard: [Número variable de parámetros](intermedio/numero_variable_parametros.md)
