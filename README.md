@@ -29,6 +29,7 @@
 
 ### Temas intermedios
 
+* :two_women_holding_hands: [Alias](intermedio/alias.md)
 * :mailbox_with_no_mail: [Nulabilidad](intermedio/nulabilidad.md)
 * :bulb: [Casting inteligente](intermedio/casting.md)
 * :hatching_chick: [Extensiones](intermedio/extensiones.md)
