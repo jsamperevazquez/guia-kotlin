@@ -32,6 +32,7 @@
 * :two_women_holding_hands: [Alias](intermedio/alias.md)
 * :mailbox_with_no_mail: [Nulabilidad](intermedio/nulabilidad.md)
 * :bulb: [Casting inteligente](intermedio/casting.md)
+* :clock9: [Inicialización en diferido](intermedio/lateinit.md)
 * :hatching_chick: [Extensiones](intermedio/extensiones.md)
 * :link: [Llamadas infix](intermedio/infix.md)
 * :musical_keyboard: [Número variable de parámetros](intermedio/numero_variable_parametros.md)
